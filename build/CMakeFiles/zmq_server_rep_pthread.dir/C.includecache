@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dev/ws/examples/c/zmq_demo/src/zmq_server_rep_pthread.c
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+stdlib.h
+-
+pthread.h
+-
+unistd.h
+-
+errno.h
+-
+czmq.h
+-
+
