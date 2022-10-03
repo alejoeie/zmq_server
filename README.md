@@ -34,8 +34,3 @@ $ cmake ..
 $ make
 ```
 
-## Ejemplo ZMQ REP server (pthread)
-
-Este ejemplo ejercita un patrón sencillo de solicitudes y respuestas (REQ/REP).
-
-Este programa (`src/zmq_server_pthread.c`) corresponde al servidor (socket ZMQ_REP) para el script `zmq_client_req.py` en `examples/python/zmq_demo` (socket ZMQ_REQ). El servidor utiliza un thread de ``pthreads`` para procesar los mensajes.
